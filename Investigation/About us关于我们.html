@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About us关于我们</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+<style>
+body{ 
+
+  background-color:lightblue;
+  }
+#heading{
+  color: white;
+    }
+.column{
+  float: left;
+  width: 24.8%;
+  height: 300px;
+  background-color: gray;
+  border:1px solid red;
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: lightblue;
+}
+ 
+li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#MyBoday{
+  width:1000px 
+}
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 400px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: #f1f1f1;
+  height: 400px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 200px) {
+  nav, article {
+    width: 60%;
+    height: auto;
+  }
+}
+ 
+</style>
+</head>
+
+<body>
+  <center>
+    <div id="MyBoday">
+  <font size="10"><p style="color : black">About us</p></font>
+
+
+<header>
+  <h2>Who we are</h2>
+</header>
+
+<section>
+  <nav>
+  <ul>
+    <li><a href="C:/Users/Owner/Desktop/Internal%20Invistation%20Group/Internal%20Invistcation%20Group-Home.html">Home主页</a></li>
+    <li><a href="file:///C:/Users/Owner/Desktop/Internal%20Invistation%20Group/Problem%20report%E9%97%AE%E9%A2%98%E4%B8%BE%E6%8A%A5.html">Problem report问题举报</a></li>
+    <li><a href="file:///C:/Users/Owner/Desktop/Internal%20Invistation%20Group/About%20us%E5%85%B3%E4%BA%8E%E6%88%91%E4%BB%AC.html">About us关于我们</a></li>
+  </ul>
+  </nav>
+  
+  <article>
+    <font size="5"><p>The Student Council have a lot of power and rights, but they still need supervise from other students to make sure no irregularities will happen on the members of Student Council while they are deal with something.(Such as cheating, bullying, receive or give money.)</p></font>
+    <font size="5"><p>To make sure no one can cotrol the inviscation, it is an auto system, will not be control by anyone.</p></font>
+  </article>
+</section>
+
+<footer>
+  <p>SuOn Academy-IIG</p>
+</footer>
+</div>
+
+  </center>
+</body>
+
+</html>
